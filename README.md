@@ -1,2 +1,2 @@
 # E-Store
-![Wireframe](Wireframe.png)
+![Wireframe](img/Wireframe.png)
