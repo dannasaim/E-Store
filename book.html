@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/book.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+
+    <link rel="icon"
+          href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyV5Tap45DEVwscIvR3GYESxCt7qLlbQAsPg&usqp=CAU">
+
+    <title>E-Book Store</title>
+</head>
+
+<body>
+<div class="container-fluid">
+    <header>
+        <div class="logo">
+            <img id="kff-logo"
+                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyV5Tap45DEVwscIvR3GYESxCt7qLlbQAsPg&usqp=CAU"
+                 alt="E-Book Logo">
+        </div>
+        <div class="header-text">
+            <nav class="navbar navbar-expand-lg navbar-blue bg-blue">
+                <button class="navbar-toggler btn btn-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <a class="navbar-brand" href="index.html">Home</a>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Bestsellers<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="book.html">Books</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quiz.html">Quiz</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" role="button"
+                               data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="about.html">About Us</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="contact.html">Contact</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class = "card">
+        <h2>Trending Books</h2>
+    </div>
+    <section id="best-books">
+        <div class="row">
+            <div class="col-md-6">
+
+                <!-- Book 1 -->
+                    <div class="book">
+                        <img src="img/book1.jpg" alt="notasastranger">
+                        <br>
+                        <h3>Maximum Achievement</h3>
+                        <p>Cover Price: $24.99</p>
+                        <p><button type="button" class="btn btn-primary">Buy</button></p>
+                        <p>Where to Buy: <a href="">Maximum Achievement</a></p>
+                        <div class="buy"></div>
+                        <div class="buy_clmn">
+                            <div class="ajax-wait hidden"></div>
+                            <h3>Buy from Other Retailers:</h3><br>
+                            <div class="others">
+                                <div class="btn-group d-flex flex-wrap" role="group">
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="https://bookshop.org/a/2186/9780593158708?prhc=PRHEFFDF5A7F1" rel="nofollow noopener noreferrer" data-retailer="Bookshop.org" aria-label="buy 9780593158708 on Bookshop.org">Bookshop.org</a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="http://www.hudsonbooksellers.com/book/9780593158708?utm_source=prh&amp;utm_medium=affiliate&amp;utm_term=301&amp;utm_content=PRHEFFDF5A7F1--9780593158708&amp;utm_campaign=9780593158708" rel="nofollow noopener noreferrer" data-retailer="Hudson Booksellers" aria-label="buy 9780593158708 on Hudson Booksellers">Hudson Booksellers</a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="https://goto.walmart.com/c/128773/565706/9383?subId1=PRHEFFDF5A7F1&amp;veh=aff&amp;sourceid=imp_000011112222333344&amp;u=https%3A%2F%2Fwww.walmart.com%2Fsearch%3Fquery%3D9780593158708" rel="nofollow noopener noreferrer" data-retailer="Walmart" aria-label="buy 9780593158708 on Walmart">Walmart</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                <!-- Book 2 -->
+                <div class="col-md-6">
+                    <div class="book">
+                        <img src="img/book2.jpg" alt="silmarillion">
+                        <br>
+                        <h3>How to Talk to Anyone</h3>
+                        <p>Cover Price: $28.99</p>
+                        <p><button type="button" class="btn btn-primary">Buy</button></p>
+                        <p>Where to Buy:<a href="">How to Talk to Anyone, Anytime, Anywhere</a></p>
+                        <div class="buy"></div>
+                        <div class="buy_clmn">
+                            <div class="ajax-wait hidden"></div>
+                            <h3>Buy from Other Retailers:</h3><br>
+                            <div class="others">
+                                <div class="btn-group d-flex flex-wrap" role="group">
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="https://bookshop.org/a/2186/9780593158708?prhc=PRHEFFDF5A7F1" rel="nofollow noopener noreferrer" data-retailer="Bookshop.org" aria-label="buy 9780593158708 on Bookshop.org">Bookshop.org</a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="http://www.hudsonbooksellers.com/book/9780593158708?utm_source=prh&amp;utm_medium=affiliate&amp;utm_term=301&amp;utm_content=PRHEFFDF5A7F1--9780593158708&amp;utm_campaign=9780593158708" rel="nofollow noopener noreferrer" data-retailer="Hudson Booksellers" aria-label="buy 9780593158708 on Hudson Booksellers">Hudson Booksellers</a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="https://goto.walmart.com/c/128773/565706/9383?subId1=PRHEFFDF5A7F1&amp;veh=aff&amp;sourceid=imp_000011112222333344&amp;u=https%3A%2F%2Fwww.walmart.com%2Fsearch%3Fquery%3D9780593158708" rel="nofollow noopener noreferrer" data-retailer="Walmart" aria-label="buy 9780593158708 on Walmart">Walmart</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+                <div class="row">
+                    <!-- Book 3 -->
+                    <div class="col-md-6">
+                    <div class="book">
+                        <img src="img/book3.jpg" alt="makhabbat">
+                        <br>
+                        <h3>Brain Plasticity</h3>
+                        <p>Cover Price: $99.99</p>
+                        <p><button type="button" class="btn btn-primary">Buy</button></p>
+                        <p>Where to Buy: <a href="">Brain Plasticity</a></p>
+                        <div class="buy"></div>
+                        <div class="buy_clmn">
+                            <div class="ajax-wait hidden"></div>
+                            <h3>Buy from Other Retailers:</h3><br>
+                            <div class="others">
+                                <div class="btn-group d-flex flex-wrap" role="group">
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="https://bookshop.org/a/2186/9780593158708?prhc=PRHEFFDF5A7F1" rel="nofollow noopener noreferrer" data-retailer="Bookshop.org" aria-label="buy 9780593158708 on Bookshop.org">Bookshop.org</a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="http://www.hudsonbooksellers.com/book/9780593158708?utm_source=prh&amp;utm_medium=affiliate&amp;utm_term=301&amp;utm_content=PRHEFFDF5A7F1--9780593158708&amp;utm_campaign=9780593158708" rel="nofollow noopener noreferrer" data-retailer="Hudson Booksellers" aria-label="buy 9780593158708 on Hudson Booksellers">Hudson Booksellers</a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="https://goto.walmart.com/c/128773/565706/9383?subId1=PRHEFFDF5A7F1&amp;veh=aff&amp;sourceid=imp_000011112222333344&amp;u=https%3A%2F%2Fwww.walmart.com%2Fsearch%3Fquery%3D9780593158708" rel="nofollow noopener noreferrer" data-retailer="Walmart" aria-label="buy 9780593158708 on Walmart">Walmart</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                <!-- Book 4 -->
+                <div class="col-md-6">
+                    <div class="book">
+                        <img src="img/book4.jpg" alt="diary">
+                        <br>
+                        <h3>Principles for Success</h3>
+                        <p>Cover Price: $32.99</p>
+                        <p><button type="button" class="btn btn-primary">Buy</button></p>
+                        <p>Where to Buy: <a href="">Principles for Success</a></p>
+                        <div class="buy"></div>
+                        <div class="buy_clmn">
+                            <div class="ajax-wait hidden"></div>
+                            <h3>Buy from Other Retailers:</h3><br>
+                            <div class="others">
+                                <div class="btn-group d-flex flex-wrap" role="group">
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="https://bookshop.org/a/2186/9780593158708?prhc=PRHEFFDF5A7F1" rel="nofollow noopener noreferrer" data-retailer="Bookshop.org" aria-label="buy 9780593158708 on Bookshop.org">Bookshop.org</a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="http://www.hudsonbooksellers.com/book/9780593158708?utm_source=prh&amp;utm_medium=affiliate&amp;utm_term=301&amp;utm_content=PRHEFFDF5A7F1--9780593158708&amp;utm_campaign=9780593158708" rel="nofollow noopener noreferrer" data-retailer="Hudson Booksellers" aria-label="buy 9780593158708 on Hudson Booksellers">Hudson Booksellers</a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="https://goto.walmart.com/c/128773/565706/9383?subId1=PRHEFFDF5A7F1&amp;veh=aff&amp;sourceid=imp_000011112222333344&amp;u=https%3A%2F%2Fwww.walmart.com%2Fsearch%3Fquery%3D9780593158708" rel="nofollow noopener noreferrer" data-retailer="Walmart" aria-label="buy 9780593158708 on Walmart">Walmart</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col-md-12">
+                <p>&copy; 2023 DANNA E-Book Store. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+
+</html>

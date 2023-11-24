@@ -1,0 +1,161 @@
+@media (max-width: 768px) {
+    header .logo img {
+        max-width: 60px;
+    }
+
+    .navbar-blue a {
+        margin-right: 40px;
+    }
+
+    #creator-info h2 {
+        margin-left: 20px;
+    }
+
+    .profile-photo img {
+        max-width: 150px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .book img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: aliceblue;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+header .logo img {
+    max-width: 80px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.navbar-blue a {
+    color: black;
+    margin-right: 180px;
+    font-weight: bold;
+}
+
+.navbar-blue a:hover {
+    color: #ecf0f1;
+}
+
+.navbar-blue .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    margin-left: -44px;
+}
+
+.navbar-blue .dropdown-item {
+    margin: 0;
+    padding: 10px 20px;
+    color: black;
+}
+
+.navbar-blue .dropdown-menu {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+#best-books {
+    margin-top: 30px;
+}
+
+.book {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.book img {
+    width: 80%;
+    height: 28%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.book h3, p, button {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.others{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy_price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart-bttns {
+    margin-top: 10px;
+}
+
+.cart-bttns button {
+    padding: 8px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#top-books {
+    margin-top: 30px;
+}
+
+#top-books ol {
+    list-style: none;
+    padding: 0;
+}
+
+#top-books ol li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+

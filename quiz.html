@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/quiz.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+
+    <link rel="icon"
+          href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyV5Tap45DEVwscIvR3GYESxCt7qLlbQAsPg&usqp=CAU">
+
+    <title>E-Book Quiz</title>
+</head>
+
+<body>
+<div class="container-fluid">
+    <header>
+        <div class="logo">
+            <img id="book-logo"
+                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyV5Tap45DEVwscIvR3GYESxCt7qLlbQAsPg&usqp=CAU"
+                 alt="E-Book Logo">
+        </div>
+        <div class="header-text">
+            <nav class="navbar navbar-expand-lg navbar-blue bg-blue">
+                <button class="navbar-toggler btn btn-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <a class="navbar-brand" href="index.html">Home</a>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Bestsellers<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="book.html">Books<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quiz.html">Quiz<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" role="button"
+                               data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="about.html">About Us</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="contact.html">Contact</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <h2>True Fans Quiz!</h2>
+    <p>Drag and drop authors to their corresponding books to win a coupon sale for the next purchase!</p>
+
+    <div class="container">
+        <div class="drag-container" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="https://images-cdn.reedsy.com/discovery/image/678/image/medium_ac6e168d4e39c875b638985a6f2b2e9034f78c0b.jpg" draggable="true"
+                 ondragstart="drag(event)" id="drag1" alt="Avatar 1">
+        </div>
+
+        <div class="drag-container" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="https://oxfordexchange.com/cdn/shop/products/kill-mockingbird.jpg?v=1625677438" draggable="true"
+                 ondragstart="drag(event)" id="drag2" alt="Avatar 2">
+        </div>
+
+        <div class="drag-container" id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="https://kawisniewski.files.wordpress.com/2018/03/great-gatsby-book-cover-35.jpg?" draggable="true"
+                 ondragstart="drag(event)" id="drag3" alt="Avatar 3">
+        </div>
+
+        <div class="drag-container" id="div7" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="https://i.etsystatic.com/5436622/r/il/79ba94/1562642490/il_fullxfull.1562642490_3ddq.jpg" draggable="true"
+                 ondragstart="drag(event)" id="drag4" alt="Avatar 3">
+        </div>
+
+        <div class="drag-container" id="div9" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="https://wordsworth-editions.com/wp-content/uploads/2021/02/Pride-Prejudice-CE-head_on.jpg?" draggable="true"
+                 ondragstart="drag(event)" id="drag5" alt="Avatar 3">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="drop-container" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p class="text">Harper Lee</p>
+        </div>
+
+        <div class="drop-container" id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p class="text">Scott Fitzgerald</p>
+        </div>
+
+        <div class="drop-container" id="div6" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p class="text">J.K.Rowling</p>
+        </div>
+
+        <div class="drop-container" id="div8" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p class="text">Jane Austen</p>
+        </div>
+
+        <div class="drop-container" id="div10" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p class="text">Charlotte Brontë</p>
+        </div>
+    </div>
+
+    <div id="result"></div>
+    <button id="reset-btn" onclick="resetGame()">Reset Game</button>
+</div>
+<script src="js/quiz.js"></script>
+<script src="js/animation.js"></script>
+</body>
+</html>
